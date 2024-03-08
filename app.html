@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="images/photo-cloud.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Jano</title>
+</head>
+<body>
+    <div class="container">
+        <h1> Aap ka swagat hai hamare weather website pe </h1>
+        <div class="navbar">
+            <form class="search_form" action="">
+                <input type="search" id="search" placeholder="Enter City Name.." name="search">
+            </form>
+            <button type="button" id="curr_location">Your Location!</button>
+        </div>
+
+        <div class="box">
+            <div class="wave one"></div>
+            <div class="wave two"></div>
+            <div class="wave three"></div>
+    
+            <div id="weathercon"></div>
+    
+            <div class="info" id="info_box">
+                <div class="location" id="place"> <i class="fas fa-street-view"></i> Lucknow, IN</div>
+                <p id="date">FRI | MAR 8 | 9:08AM</p>
+                <h1 class="temp" id="temperature">14.99 °C</h1>
+                <h3 class="tempmin_max" id="tempRange">Min 07.99°C | Max 18.99°C</h3>
+            </div>
+        </div>
+        <h1>&copy; 2024 SAMRAT KARAK. Rights reserved</h1>
+    </div>
+    <script src="time.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
